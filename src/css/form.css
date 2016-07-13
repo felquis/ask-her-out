@@ -1,0 +1,13 @@
+/*
+	Content of the current Page
+ */
+form {
+	width: 80%;
+	margin: 0 auto;
+}
+
+form label {
+	width: 100%;
+	display: block;
+	margin: 10px 0;
+}

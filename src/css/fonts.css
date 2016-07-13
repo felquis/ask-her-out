@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'droidsans';
+    src: url('../fonts/droidsans/regular/droidsans.eot');
+    src: url('../fonts/droidsans/regular/droidsans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidsans/regular/droidsans.woff') format('woff'),
+         url('../fonts/droidsans/regular/droidsans.ttf') format('truetype'),
+         url('../fonts/droidsans/regular/droidsans.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droidsans';
+    src: url('../fonts/droidsans/bold/droidsans.eot');
+    src: url('../fonts/droidsans/bold/droidsans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidsans/bold/droidsans.woff') format('woff'),
+         url('../fonts/droidsans/bold/droidsans.ttf') format('truetype'),
+         url('../fonts/droidsans/bold/droidsans.svg#droid_sansregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

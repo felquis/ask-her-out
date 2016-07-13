@@ -1,0 +1,56 @@
+
+/*
+	Header
+ */
+.header {
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: silver;
+	border-bottom: 1px solid blue;
+	z-index: 10;
+	width: 100%;
+}
+
+/* page title/branch */
+.header h1 {
+	margin: 0 0 0 20px;
+	height: 100%;
+
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+/* menu */
+.header ul {
+	margin:  0 0 0 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+/* menu item */
+.header li a {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.header ul, .header li { height: 100% }
+
+/* colors  */
+.header {
+	background-color: #00BCD4;
+}
+.header li a.active {
+	background-color: #0097A7;
+}
+
