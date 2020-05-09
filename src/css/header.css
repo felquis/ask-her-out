@@ -4,13 +4,15 @@
  */
 .header {
 	height: 70px;
-	position: fixed;
+	position: sticky;
 	top: 0;
 	left: 0;
 	background: silver;
 	border-bottom: 1px solid blue;
 	z-index: 10;
 	width: 100%;
+	display: flex;
+    justify-content: space-between;
 }
 
 /* page title/branch */
@@ -18,7 +20,6 @@
 	margin: 0 0 0 20px;
 	height: 100%;
 
-	float: left;
 	display: flex;
 	align-items: center;
 }
@@ -27,7 +28,6 @@
 .header ul {
 	margin:  0 0 0 0;
 	padding: 0;
-	float: right;
 	list-style: none;
 	height: 100%;
 	display: flex;

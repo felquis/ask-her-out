@@ -54,6 +54,11 @@
 			prev.classList.remove('animation-reverse')
 			next.classList.remove('animation-reverse')
 		}, 510)
+
+		next.scrollIntoView({
+			inline: 'start',
+			behavior: 'smooth'
+		})
 	}
 
 	function getFirst() {
